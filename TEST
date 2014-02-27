@@ -1,0 +1,17 @@
+<WFPrepaymentArm-fharm.txt>
+$3>20000
+$4>-100 && $4 < 100
+$5 > -100 && $5 < 100
+$6 != $9
+$10 > 0
+$2 == "All" && $3 > 20000 || $2 != "All"
+</WFPrepaymentArm-fharm.txt>
+
+<WFServicerArm-fh.txt>
+$3>50000
+$4 > -100 && $4 < 100
+$5 > -100 && $5 < 100
+$6 != $9
+$3 > $4 + 1000
+</WFServicerArm-fh.txt>
+
